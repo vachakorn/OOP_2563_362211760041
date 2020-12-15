@@ -9,6 +9,9 @@ public static void main (String[]arg){
 
     System.out.println(number);
 
+    number = number * 100;
+    System.out.println(number);
+
 
 }//main
 

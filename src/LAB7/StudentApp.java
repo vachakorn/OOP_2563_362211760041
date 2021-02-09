@@ -4,7 +4,7 @@ public class StudentApp {
     public static void main(String[] args) {
         Student std1 = new Student();
         std1.introduce();
-        std1.name = "Adithep Chuklin";
+        std1.name = "Vachakorn Taweechotworakul";
         std1.age = 22;
         std1.major = "MIT";
         std1.introduce();

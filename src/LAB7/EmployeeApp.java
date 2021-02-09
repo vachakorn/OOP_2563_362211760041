@@ -15,6 +15,14 @@ public class EmployeeApp {
         //System.out.println(emp2.name);
 
         //assign data to emp1
+        emp1.setName("Vachakorn Taweechotworakul");
+        emp1.setAge(22);
+        emp1.setPosition("Student");
+        emp1.setSalary(20000);
+
+        emp1.displayData();
+        System.out.println("Emp name : "+emp1.getName());
+
 
     }//main
 }//class

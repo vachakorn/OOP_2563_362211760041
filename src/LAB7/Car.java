@@ -20,6 +20,15 @@ public class Car {
         return id;
     }
 
+    @Override
+    public String toString() {
+        return "Car{" +
+                "id='" + id + '\'' +
+                ", color='" + color + '\'' +
+                ", Brand='" + Brand + '\'' +
+                '}';
+    }
+
     public void setId(String id) {
         this.id = id;
     }
